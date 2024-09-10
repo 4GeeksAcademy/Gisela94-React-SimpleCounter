@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    display: flex;
+    width: 1500px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.small-div {
+    display: inline-flex;
+    width: 120px;
+    height: 200px;
+    background-color: rgb(49, 47, 47);
+    justify-content: center;
+    margin: auto;
+    border-radius: 10%;
+    color: white;
+}
+
+.first-div {
+    display: inline-flex;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(49, 47, 47);
+    justify-content: center;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.clock {
+    font-size: 100px;
+    color: lightgray;
+    margin-top: 50px;
+}
