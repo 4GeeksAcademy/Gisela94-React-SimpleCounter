@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importar el
 import { faClock } from '@fortawesome/free-solid-svg-icons'; // Importar el icono del reloj
 
 
-const Counter = (props) => { 
+export const Counter = (props) => { 
 
   let one = props.seconds;
   let two = 0;
@@ -30,13 +30,12 @@ const Counter = (props) => {
           four = five % 10;
 
           if (five > 9) {
-            six = Math.floor(six / 10);
+            six = Math.floor(five / 10);
             five = five % 10;
           }
         }
 
       }
-      
     }
   }
 
@@ -54,4 +53,4 @@ const Counter = (props) => {
     );
   };
   
-  export default Counter;
+ 
